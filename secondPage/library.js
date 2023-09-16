@@ -1,7 +1,7 @@
 const backBtn = document.querySelector('#back')
 
 backBtn.addEventListener('click', () =>{
-    window.location.href = 'http://127.0.0.1:5500/Poked%C3%A9x/indexPage/index.html'
+    window.location.href = 'http://127.0.0.1:5500/Poked%C3%A9x/index.html'
 })
 
 const fetchPokemon = async (pokemon) => {
