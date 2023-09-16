@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Oxanium:wght@200;300;400;500;600;700;800&family=Press+Start+2P&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Oxanium', cursive;
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    padding: 20px;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    background: linear-gradient(to right, #d4d3dd, #efefbb);
+}
+h1{
+    margin-top: 2rem;
+    color: #fff;
+    letter-spacing: 8px;
+    word-spacing: 15px;
+
+    background-color: rgb(255, 0, 0);
+    padding: 10px;
+    border-radius: 12px;
+}
+.container{
+    width: 65%;
+    margin-top: 5rem;
+
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+.card{
+    width: 14%;
+    min-width: 150px;
+    height: 15rem;
+    padding: 10px;
+    margin-bottom: 20px;
+
+    box-shadow: 0 3px 15px rgba(100, 100, 100, 0.5);
+    border-radius: 5px;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.img_circle{
+    background-color: #fff;
+    border-radius: 50%;
+
+    width: 115px;
+    height: 115px;
+
+    margin-bottom: 20%;
+}
+.pokemon{
+    height: 100%;
+}
+.type, .name{
+    text-transform: capitalize;
+}
+#grass{
+    background-color: #DEFDE0;
+}
+#electric{
+    background-color: #FCF7DE;
+}
+#fire{
+    background-color: #FDDFDF;
+}
+#water{
+    background-color: #DEF3FD;
+}
+#ground{
+    background-color: #f4e7da;
+}
+#rock{
+    background-color: #d5d5d4;
+}
+#steel{
+    background-color: #fceaff;
+}
+#poison{
+    background-color: #98d7a5;
+}
+#bug{
+    background-color: #f8d5a3;
+}
+#ghost{
+    background-color: #322653;
+    color: #fff;
+}
+#psychic{
+    background-color: #eaeda1;
+}
+#flaying{
+    background-color: #E6E0D4;
+}
+#normal{
+    background-color: #F5F5F5;
+}
+#dark{
+    background-color: #333;
+    color: #fff;
+}
+#fighting{
+    background-color: #08967364;
+}
+#fairy{
+    background-color: rgb(242, 183, 250);
+}
+#ice{
+    background-color: #97b3e6;
+}
+#dragon{
+    background-color: #3E001F;
+    color: #fff;
+}
+#back{
+    position: absolute;
+    width: 8%;
+    padding: 1%;
+
+    left: 8%;
+    top: 10%;
+
+    border: 2px solid #000;
+    border-radius: 5px;
+
+    box-shadow: -2px 3px 0 #222, -4px 6px 0 #000;
+    background-color: #444;
+    color: #fff;
+    font-size: clamp(8px, 5vw, 1rem);
+
+    cursor: pointer;
+}
+#back:active{
+    box-shadow: inset -4px 4px 0 #000;
+    font-size: 0.9rem;
+}
